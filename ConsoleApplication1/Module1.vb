@@ -7,7 +7,7 @@
         max = 1000
         Dim r As New Random()
         guess = r.Next(1, 100)
-        Console.WriteLine(-------猜數字時間-------)
+        Console.WriteLine("-------猜數字時間-------")
         Console.WriteLine()
         Do
             Console.Write("猜數字範圍{1}<?<{1000}:", min, max)
